@@ -101,11 +101,6 @@ TW_INCLUDE_CRYPTO_FBE := false
 TW_INCLUDE_FBE_METADATA_DECRYPT := true
 BOARD_USES_METADATA_PARTITION := true
 
-# Display
-TW_BRIGHTNESS_PATH := "/sys/class/backlight/panel0-backlight/brightness"
-TW_FRAMERATE := 120
-TW_DEFAULT_BRIGHTNESS := 1000
-
 # TWRP Configs
 TW_EXCLUDE_APEX := true
 TW_EXTRA_LANGUAGES := true
